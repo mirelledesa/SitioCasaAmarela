@@ -1,5 +1,9 @@
 
 /*cabeçalho*/
+.navbar-nav{
+    position: absolute;
+   
+}
 .logo{
     width: 100px;
     height: 70px;
@@ -11,6 +15,7 @@
 header{
     background-color: rgba(250, 249, 248, 0.566);
     position: relative;
+  
 }
 .nome1{
     font-family:"raleway";
@@ -22,6 +27,52 @@ header{
     font-size: 30px;
     color: aliceblue;
 }
+/*menu*/
+.menu0{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "inter";
+    color:white;
+    position: absolute;
+    margin-left: 66.9%;
+    margin-top: 28px;
+    padding: 8px 10px;
+    border: solid 2px;
+}
+.menu1{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "inter";
+    color: white;
+    position: absolute;
+    margin-left: 72.7%;
+    margin-top: 28px;
+    padding: 8px 10px;
+    border: solid 2px;
+}
+.menu2{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "inter";
+    color:white;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 28px;
+    padding: 8px 10px;
+    border: solid 2px;
+}
+.menu3{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "inter";
+    color: rgb(246, 244, 244);
+    position: absolute;
+    margin-left: 89%;
+    margin-top: 28px;
+    padding: 8px 10px;
+    border: solid 2px;
+}
+
 /*sessao1*/
 .banner > h1{
     font-family: "Kaushan Script";
@@ -140,7 +191,7 @@ margin-bottom: 50px;
 .card-link:hover{
     background-color: rgb(2, 58, 212); 
 }
-.sessao5{
+#sessao5{
     background-image: url(./assets.com/Rectangle.png);
     background-repeat: no-repeat;
     background-size: cover;

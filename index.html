@@ -26,6 +26,14 @@
     <title>Sítio Casa Amarela</title>
 </head>
 <header>
+     <!--menu-->
+     <div class="containermenu">
+    <a class="menu0"  href="#sessao2" target="_blank">Fotos</a>
+    <a class="menu1"  href="#sessao4" target="_blank">Pacotes</a>
+    <a class="menu2"  href="#sessao5" target="_blank">Orçamento</a>
+    <a class="menu3"  href="#sessao7" target="_blank">Localização</a>
+   </div>
+
     <img src="./assets.com/logo.jpeg" class="logo">
     <p class="nome1">Sítio Casa Amarela</p>
 </header>
@@ -35,7 +43,7 @@
     <h2> Ambiente familiar para festas e eventos.</h2>
 
 </section>
-<section class="sessão2">
+<section id="sessao2">
     <h3 class="chamada">Garanta sua festa no melhor <br> espaço da cidade!</h3>
     <a href="https://wa.me/message/SWAF426S2F4HF1" target="_blank"  class="agendar">AGENDAR AGORA</a>
 </section>
@@ -72,7 +80,7 @@
 </ul>
  </section>
  
- <section class="sessao4">
+ <section id="sessao4">
     <p class="pacotes">Pacotes mais pedidos</p>
     <div class="containergeral">
     <div class="cartao1">
@@ -151,10 +159,10 @@
   </div>
 </div>
  </section>
- <section class="sessao5">
+ <section id="sessao5">
   <p class="pergunta">Gostaria de contratar outro pacote?</p>
   <p class="afirmacao"> Mande uma mensagem e peça o seu orçamento.</p>
-  <a href="https://wa.me/message/SWAF426S2F4HF1" class="orcamento">Pedir Orçamento</a>
+  <a href="https://wa.me/message/SWAF426S2F4HF1" target="_blank" class="orcamento">Pedir Orçamento</a>
  </section>
 
  <h2 class=" avaliaçoes">Nossas avaliações</h2>
@@ -184,7 +192,7 @@
          <p class="rlt"> "Ótimo pra passar o dia com a família, banheiros e salões com acessibilidade. minha tia é cadeirante a amou."</p><p class="nome"> -Fabrício Almeida</p>
      </div>
  </section>
- <section class="sessao7">
+ <section id="sessao7">
      <h3 class="lcz"> Localização</h3>
      <p class="localizaçao1"> Santa Luzia do Norte</p>
      <p class="localizaçao2"> Rua Benedito Mascarenhas </p>
@@ -207,6 +215,22 @@
  
     
     
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script>
+ $(document).ready(function(){
+   $(".section-link").on('click', function(event) {
+     if (this.hash !== "") {
+       event.preventDefault();
+       var hash = this.hash;
+       $('html, body').animate({
+         scrollTop: $(hash).offset().top
+       }, 800, function(){
+         window.location.hash = hash;
+       });
+     }
+   });
+ });
+ </script>
  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
 </body>
