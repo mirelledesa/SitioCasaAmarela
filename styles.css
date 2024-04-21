@@ -51,11 +51,25 @@ font-family: "inter";
 font-weight: 300;
 margin-bottom: 50px; 
 }
+.agendar{
+ margin-left: 43%;
+ font-size: 20px;
+ text-decoration: none;
+ color: white;
+ background-color:rgb(35, 73, 207);  
+ padding: 13px 40px; 
+ border-radius: 13px;
+ font-family: "inter";
+
+}
+.agendar:hover{
+    background-color: rgb(2, 58, 212); 
+}
 /*sessão3*/
 .sessão3{
     position: relative;
     background-color: rgb(251, 252, 232);
-    margin-top: 80px;
+    margin-top: 100px;
 }
 /*.conheça{
     color: black;
@@ -67,9 +81,10 @@ margin-bottom: 50px;
 .ideal{
     position: absolute;
     color: black;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 26px;
+    font-weight: 500px;
     left: 1100px;
+    font-family: "Kaushan Script";
     top:40%;
 }
 .lista2{
@@ -114,7 +129,7 @@ margin-bottom: 50px;
       
 }
 .card-link{
-   background-color: rgba(0, 0, 255, 0.5);
+   background-color:rgb(35, 73, 207);
    padding: 10px 80px;
     color: aliceblue;
     text-decoration: none;
@@ -134,31 +149,31 @@ margin-bottom: 50px;
     position: relative;
 }
 .pergunta{
-   left: 17%;
-   font-size: 3.6rem;
+   left: 15%;
+   font-size: 4rem;
    font-weight: 500;
    font-family: "inter";
    top: 100px;
    position: absolute;
-    
+
    
 }
 .afirmacao{
     left: 32%;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 400;
     font-family: "inter";
-    top: 185px;
+    top: 193px;
     position: absolute;   
     font-weight: 500;
 }
 .orcamento{
     text-decoration: none;
     position: absolute;
-    top: 30px;
+    top: 24px;
     font-size: 20px;
     font-family: "inter";
-    padding: 10px 40px;
+    padding: 13px 45px;
     background-color: rgb(4, 4, 4);
     margin-top: 250px;
     color: aliceblue;
@@ -166,5 +181,113 @@ margin-bottom: 50px;
     margin-left: 41%;
     text-transform: uppercase;
 }
+.orcamento:hover{
+    background-color: rgb(11, 11, 11);
+}
+/*  avaliaçoes*/
+.avaliaçoes{
+   margin-top: 6rem;
+   font-size: 2.2rem;
+   font-weight: 500;
+   margin-left: 4.5rem;
+   margin-bottom: 2rem;
+}
+.sessao6{
+   display: flex;
+   margin-left: 5rem;
+}
+.avaliaçoesdiv{
+   margin: 0 auto;
+   justify-content: space-around ;
+   width: 400px;
+   border: solid 1px;
+   padding: 15px 20px;
+   height: 250px;
+   background-color: white;
+   margin-bottom: 100px;
+   
+}
+.rlt{
+   font-size: 1rem;
+   margin-top: 2rem;
+   text-align: left;
+   
+}
+.nome{
+   font-size: 1rem;
+   margin-top: 2rem;
+   text-align: left;
+   margin-bottom: 6rem;
+}
+/* sessao7*/
+ .lcz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem
+ }
+ .localizaçao1{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin-bottom: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+ }
 
+ .localizaçao2{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin-bottom: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .localizaçao3{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+    iframe{
+    margin-left: 32%;
+    margin-top: 1rem;
+ }
+ /*footer*/
+ footer{
+    background-color: rgb(241, 241, 234);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+ }
+ .novidades{
+    font-size: 37px;
+    margin-top: 70px;
+    font-family: "Kaushan Script";
+    margin-left: 2%;
+    
+ }
+ .scs{
+    font-family: "raleway";
+    margin-top: 5px;
+    margin-left: 3%;
+    font-size: 25px;
+ }
+  
+ .redessociais{
+    display: flex;
+ }
+ a{
+    font-size: 40px;
+    margin: 5px 7rem;
+    margin-bottom: 70px;
+    
+  }  
