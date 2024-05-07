@@ -343,3 +343,59 @@ margin-bottom: 50px;
     margin-bottom: 70px;
     
   }  
+  /*responsividade*/
+  @media screen and (max-width: 430px) {
+    .logo{
+        display: none;
+    }
+    .menu0{
+        margin-left: 40px;
+    }
+    .menu1{
+        margin-left: 135px;
+    }
+    .menu2{
+        margin-left: 250px;
+    }
+    .menu3{
+        display: none;
+    }
+    .banner > h1{
+        font-size: 50px;   
+    }
+    .banner{
+        background-image: url(./assets.com/ft4.jpeg);
+        background-size: cover;
+        background-position: 50%;
+    }
+    .banner > h1{
+        top: 36rem;
+        left: 10px;
+    }
+    .banner > h2{
+        top: 40rem;
+        font-size: 25px;
+        text-align: center;
+        left: 10px;
+    }
+    .chamada{
+        font-size: 30px;
+        margin: 0 30px 30px;
+        text-align: center;
+    }
+    .agendar{
+        padding: 10px 15px;
+        margin-left: 24%;
+    }
+    .sessão3{
+        margin-top: 70px;
+    }
+    .ideal{
+        left: 23%;
+        top:150%; 
+    }
+    .lista2{
+        left: 15%;
+        top: 185%;
+        font-size: 20px;
+    }
