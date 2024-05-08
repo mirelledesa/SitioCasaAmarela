@@ -350,13 +350,13 @@ margin-bottom: 50px;
         display: none;
     }
     .menu0{
-        margin-left: 40px;
+        margin-left: 59px;
     }
     .menu1{
         margin-left: 135px;
     }
     .menu2{
-        margin-left: 250px;
+        margin-left: 230px;
     }
     .menu3{
         display: none;
@@ -371,13 +371,17 @@ margin-bottom: 50px;
     }
     .banner > h1{
         top: 36rem;
-        left: 10px;
+        left: 20px;
+        right: 15px;
+        font-size: 42px;
+       
     }
     .banner > h2{
-        top: 40rem;
-        font-size: 25px;
+        top: 41rem;
+        font-size: 23px;
         text-align: center;
         left: 10px;
+        margin: 0 15px;
     }
     .chamada{
         font-size: 30px;
@@ -410,6 +414,7 @@ margin-bottom: 50px;
         margin-left: 16%;
         margin-bottom: 10px;
         text-transform: uppercase;
+        
     }
     .containergeral{
         display: flex;
@@ -419,7 +424,7 @@ margin-bottom: 50px;
     }
     .pergunta{
         left: 3%;
-        font-size: 2rem;
+        font-size: 1.8rem;
         text-align: center;
         margin-top: 0;
     }
@@ -464,14 +469,15 @@ margin-bottom: 50px;
         margin-top: 5rem;
     }
     .novidades{
-        font-size: 30px;
+        font-size: 28px;
         margin-top: 70px;
         margin-left: 2%;
         margin-bottom: 0px;
     }
     a{
-        font-size: 40px;
+        font-size: 30px;
         margin: 2px 2rem;
         margin-bottom: 50px;
         
     }
+}
